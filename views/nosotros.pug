@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block contenido 
+    main.container.mt-5 
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina} 
+                blockquote Curabitur venenatis pretium leo. Praesent rhoncus eros at metus volutpat, eget egestas nibh mattis.
+
+                p Sed condimentum justo id nisi euismod ullamcorper. Nam nec justo sit amet nisi tincidunt sodales sit amet et arcu. Donec fermentum dignissim orci at mattis. Suspendisse eu accumsan risus. Vivamus lacinia viverra odio quis efficitur. Sed et tempor odio. Cras ultricies varius dui in imperdiet. Nullam iaculis varius massa, quis molestie sem tempor ut. Vestibulum dictum velit leo, sed efficitur lacus feugiat nec. Maecenas ullamcorper congue tortor. Proin interdum vel ante vel cursus.
+
+                p Duis sit amet rutrum erat. Mauris lacinia pulvinar nisl in auctor. Suspendisse sem massa, efficitur ut porttitor ac, maximus ac leo. Ut quis est id turpis varius cursus vitae at lorem. Proin at nunc eu lectus tincidunt porta tempor at ligula.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Curabitur venenatis pretium leo. Praesent rhoncus eros at metus volutpat, eget egestas nibh mattis.
+                
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Curabitur venenatis pretium leo. Praesent rhoncus eros at metus volutpat, eget egestas nibh mattis.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Curabitur venenatis pretium leo. Praesent rhoncus eros at metus volutpat, eget egestas nibh mattis.
